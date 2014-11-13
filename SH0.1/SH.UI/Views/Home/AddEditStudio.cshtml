@@ -37,13 +37,13 @@
             {
                 $('.hero').each(function (i, e, m) {
                     var button = $(this).append('<button type="button" class="delete">X</button>');
-                    button.click(function () {
+                    button.children(':last').click(function () {
                         $.ajax({
                             url: '/DeleteHero',
                             data: { id: $('.hero table:eq(' + i + ') tr:eq(0) td:eq(1)').children().val() },
                             error: function () { alert('error'); }
                         })
-                        $(this).remove();
+                        $('.hero:eq('+i+')').remove();
                     });
                 });
 
