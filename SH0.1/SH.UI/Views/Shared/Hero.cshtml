@@ -1,0 +1,33 @@
+﻿@model SH.Models.Hero
+<div class="hero">
+    <fieldset>
+                <table>
+                    <tr>
+                        <td>@Html.Label("ID:")</td>
+                        <td>@Html.TextBox("HeroID", Model.ID, new { disabled = true })</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.Label("Name:")</td>
+                        <td>@Html.TextBoxFor(model => model.Name)</td>
+                    </tr>
+                    <tr>
+                        <td>@Html.Label("Year:")</td>
+                        <td>@Html.EditorFor(model => model.Year)</td>
+                    </tr>
+                        @if (ViewData["Studios"] != null)
+                        {
+                            <tr>
+                                <td>@Html.Label("Studio:")</td>
+                                @if (Model.Studio != null)
+                                {
+                                    <td>@Html.DropDownListFor(model => model.StudioID, new SelectList((List<SH.Models.Studio>)ViewData["Studios"], "ID", "Name", Model.Studio), new { @class = "changestudio" })</td>
+                                }
+                                else
+                                {
+                                    <td>@Html.DropDownListFor(model => model.StudioID, new SelectList((List<SH.Models.Studio>)ViewData["Studios"], "ID", "Name"), new { @class = "changestudio" })</td>
+                                }
+                            </tr>
+                        }
+        </table>
+    </fieldset>
+</div>

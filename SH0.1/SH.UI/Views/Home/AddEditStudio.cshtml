@@ -1,0 +1,113 @@
+﻿@model SH.UI.Models.StudioHeroesModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Studio</title>
+    <script src="~/Script/jquery-1.11.1.min.js"></script>
+    <link href="~/Style/partials.css" rel="stylesheet" />
+</head>
+<body>
+    @Html.Partial("Studio", Model.Studio)
+    <div id="heroes">
+        <h2>Heroes:</h2>      
+    @if (Model.Heroes.Count > 0)
+    {
+        foreach (var item in Model.Heroes)
+        {
+            Html.RenderPartial("Hero", item);
+        }
+    }
+    </div>
+    <input type="button" id="addHero" value="Add hero">
+    <input type="button" id="save" value="Save" />
+    <input type="button" id="cancel" value="Cancel" />
+    @if (((string)ViewData["ActionMethod"]).Equals("edit"))
+    {
+         <input type="button" value="Delete" id="delete" />
+    } 
+    <script>
+        $(document).ready(
+            function ()
+            {
+                $('.hero').each(function (i, e, m) {
+                    var button = $(this).append('<button type="button" class="delete">X</button>');
+                    button.click(function () {
+                        $.ajax({
+                            url: '/DeleteHero',
+                            data: { id: $('.hero table:eq(' + i + ') tr:eq(0) td:eq(1)').children().val() },
+                            error: function () { alert('error'); }
+                        })
+                        $(this).remove();
+                    });
+                });
+
+                $('#save').click(
+                        function ()
+                        {
+                            var res = {};
+                            var x = [];
+                            if ($('.hero').length > 0) {
+                                
+                                $('.hero table').each(function (e, i, m) {
+                                    x.push({
+                                        ID: $('.hero table:eq(' + e + ') tr:eq(0) td:eq(1)').children().val(),
+                                        Name: $('.hero table:eq(' + e + ') tr:eq(1) td:eq(1)').children().val(),
+                                        Year: $('.hero table:eq(' + e + ') tr:eq(2) td:eq(1)').children().val()
+                                    });
+                                });
+                            }
+                            res.Heroes = x;
+                            res.Studio = {
+                                ID: $('#studio').children(':eq(0)').val(),
+                                Name: $('#studio').children(':eq(2)').val()
+                            };
+                            $.ajax(
+                                {
+                                    url: '/Studio',
+                                    contentType: 'application/json',
+                                    type: 'POST',
+                                    data: JSON.stringify(res),
+                                    success: function (data) { window.location = '/'; },
+                                    error: function () { alert('error') },
+                                    async: false
+                                });
+
+                        });
+
+                $('#addHero').click(function ()
+                {
+                    $.ajax({
+                        url: '/GetHeroPartial',
+                        type: 'GET',
+                        success: function (data)
+                        {
+                            var button = $('#heroes').append(data);
+                            $('.hero:last').append('<button type="button" class="delete">X</button>');
+                                $('.hero:last button').click(function () { $(this).parent().remove(); });
+                        }
+                    });
+                });
+
+                $('#delete').click(function () {
+                    $.ajax({
+                        url: '/DeleteStudio',
+                        type: 'POST',
+                        data: { id: $('#studio').children(':eq(0)').val() },
+                        error: function () { alert('error delete') },
+                        success: function () { window.location = '/'}
+                    });
+                });
+
+                $('#cancel').click(function () {
+                    window.location = '/';
+                });
+            });
+</script>
+</body>
+</html>

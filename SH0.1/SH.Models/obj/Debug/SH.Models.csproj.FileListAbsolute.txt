@@ -1,0 +1,17 @@
+c:\users\rockstarko\documents\visual studio 2013\Projects\SH\SH.Models\bin\Debug\SH.Models.dll
+c:\users\rockstarko\documents\visual studio 2013\Projects\SH\SH.Models\bin\Debug\SH.Models.pdb
+c:\users\rockstarko\documents\visual studio 2013\Projects\SH\SH.Models\obj\Debug\SH.Models.dll
+c:\users\rockstarko\documents\visual studio 2013\Projects\SH\SH.Models\obj\Debug\SH.Models.pdb
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.Models\obj\Debug\SH.Models.csprojResolveAssemblyReference.cache
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.Models\bin\Debug\SH.Models.dll.config
+D:\SH\SH.Models\bin\Debug\SH.Models.dll.config
+D:\SH\SH.Models\bin\Debug\SH.Models.dll
+D:\SH\SH.Models\bin\Debug\SH.Models.pdb
+D:\SH\SH.Models\obj\Debug\SH.Models.csprojResolveAssemblyReference.cache
+D:\SH\SH.Models\obj\Debug\SH.Models.dll
+D:\SH\SH.Models\obj\Debug\SH.Models.pdb
+D:\SH0.1\SH.Models\bin\Debug\SH.Models.dll.config
+D:\SH0.1\SH.Models\bin\Debug\SH.Models.dll
+D:\SH0.1\SH.Models\bin\Debug\SH.Models.pdb
+D:\SH0.1\SH.Models\obj\Debug\SH.Models.dll
+D:\SH0.1\SH.Models\obj\Debug\SH.Models.pdb

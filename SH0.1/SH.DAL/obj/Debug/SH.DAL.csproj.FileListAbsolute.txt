@@ -1,0 +1,34 @@
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.DAL\bin\Debug\SH.DAL.dll.config
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.DAL\bin\Debug\SH.DAL.dll
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.DAL\bin\Debug\SH.DAL.pdb
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.DAL\bin\Debug\SH.Models.dll
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.DAL\bin\Debug\SH.Models.pdb
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.DAL\obj\Debug\SH.DAL.dll
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.DAL\obj\Debug\SH.DAL.pdb
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.DAL\obj\Debug\SH.DAL.csprojResolveAssemblyReference.cache
+D:\SH\SH.DAL\bin\Debug\SH.DAL.dll.config
+D:\SH\SH.DAL\bin\Debug\SH.DAL.dll
+D:\SH\SH.DAL\bin\Debug\SH.DAL.pdb
+D:\SH\SH.DAL\bin\Debug\EntityFramework.dll
+D:\SH\SH.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\SH\SH.DAL\bin\Debug\SH.Models.dll
+D:\SH\SH.DAL\bin\Debug\SH.Models.pdb
+D:\SH\SH.DAL\bin\Debug\EntityFramework.xml
+D:\SH\SH.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\SH\SH.DAL\obj\Debug\SH.DAL.csprojResolveAssemblyReference.cache
+D:\SH\SH.DAL\obj\Debug\SH.DAL.dll
+D:\SH\SH.DAL\obj\Debug\SH.DAL.pdb
+D:\SH0.1\SH.DAL\obj\Debug\SH.DAL.csprojResolveAssemblyReference.cache
+D:\SH0.1\SH.DAL\obj\Debug\SH.DAL.dll
+D:\SH0.1\SH.DAL\obj\Debug\SH.DAL.pdb
+D:\SH0.1\SH.DAL\bin\Debug\SH.DAL.dll.config
+D:\SH0.1\SH.DAL\bin\Debug\SH.DAL.dll
+D:\SH0.1\SH.DAL\bin\Debug\SH.DAL.pdb
+D:\SH0.1\SH.DAL\bin\Debug\EntityFramework.dll
+D:\SH0.1\SH.DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\SH0.1\SH.DAL\bin\Debug\Ninject.dll
+D:\SH0.1\SH.DAL\bin\Debug\SH.Models.dll
+D:\SH0.1\SH.DAL\bin\Debug\SH.Models.pdb
+D:\SH0.1\SH.DAL\bin\Debug\EntityFramework.xml
+D:\SH0.1\SH.DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\SH0.1\SH.DAL\bin\Debug\Ninject.xml

@@ -1,0 +1,42 @@
+﻿@model SH.Models.Hero
+       @using System.Web;
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <script src="~/Script/jquery-1.11.1.min.js"></script>
+    <link href="~/Style/partials.css" rel="stylesheet" />
+    <title>Hero</title>
+</head>
+<body>
+            <fieldset>
+                @Html.Partial("Hero", Model, ViewData)
+                <button id="save" type="button">Save</button>
+            </fieldset>
+    <script>
+        $(document).ready(function () {
+            $('#save').click(
+                function () {
+                    $.ajax({
+                        url: '/Hero',
+                        data: {
+                            ID: $('.hero table:eq(0) tr:eq(0) td:eq(1)').children().val(),
+                            Name: $('.hero table:eq(0) tr:eq(1) td:eq(1)').children().val(),
+                            Year: $('.hero table:eq(0) tr:eq(2) td:eq(1)').children().val(),
+                            StudioID: $('.hero table:eq(0) tr:eq(3) td:eq(1)').children().val()
+                        },
+                        type: 'POST',
+                        success: function () { window.location = '/'; },
+                        error: function () { alert(error);}
+                    });
+                });
+        });
+    </script>
+</body>
+</html>

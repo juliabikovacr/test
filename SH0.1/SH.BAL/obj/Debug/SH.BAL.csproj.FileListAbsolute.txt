@@ -1,0 +1,38 @@
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.BAL\obj\Debug\SH.BAL.csprojResolveAssemblyReference.cache
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.BAL\bin\Debug\SH.BAL.dll
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.BAL\bin\Debug\SH.BAL.pdb
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.BAL\bin\Debug\SH.Models.dll
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.BAL\bin\Debug\SH.Models.pdb
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.BAL\obj\Debug\SH.BAL.dll
+C:\Users\RockstarkO\Documents\Visual Studio 2013\Projects\SH\SH.BAL\obj\Debug\SH.BAL.pdb
+C:\Users\RockstarkO\documents\visual studio 2013\Projects\SH\SH.BAL\bin\Debug\SH.DAL.dll
+C:\Users\RockstarkO\documents\visual studio 2013\Projects\SH\SH.BAL\bin\Debug\SH.DAL.pdb
+D:\SH\SH.BAL\obj\Debug\SH.BAL.csprojResolveAssemblyReference.cache
+D:\SH\SH.BAL\obj\Debug\SH.BAL.dll
+D:\SH\SH.BAL\bin\Debug\SH.BAL.dll
+D:\SH\SH.BAL\bin\Debug\SH.BAL.pdb
+D:\SH\SH.BAL\bin\Debug\SH.DAL.dll
+D:\SH\SH.BAL\bin\Debug\SH.Models.dll
+D:\SH\SH.BAL\bin\Debug\EntityFramework.dll
+D:\SH\SH.BAL\bin\Debug\SH.DAL.pdb
+D:\SH\SH.BAL\bin\Debug\SH.Models.pdb
+D:\SH\SH.BAL\bin\Debug\EntityFramework.xml
+D:\SH\SH.BAL\obj\Debug\SH.BAL.pdb
+D:\SH\SH.BAL\bin\Debug\Ninject.dll
+D:\SH\SH.BAL\bin\Debug\Ninject.xml
+D:\SH0.1\SH.BAL\obj\Debug\SH.BAL.csprojResolveAssemblyReference.cache
+D:\SH0.1\SH.BAL\obj\Debug\SH.BAL.dll
+D:\SH0.1\SH.BAL\obj\Debug\SH.BAL.pdb
+D:\SH0.1\SH.BAL\bin\Debug\SH.BAL.dll.config
+D:\SH0.1\SH.BAL\bin\Debug\SH.BAL.dll
+D:\SH0.1\SH.BAL\bin\Debug\SH.BAL.pdb
+D:\SH0.1\SH.BAL\bin\Debug\EntityFramework.dll
+D:\SH0.1\SH.BAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\SH0.1\SH.BAL\bin\Debug\Ninject.dll
+D:\SH0.1\SH.BAL\bin\Debug\SH.DAL.dll
+D:\SH0.1\SH.BAL\bin\Debug\SH.Models.dll
+D:\SH0.1\SH.BAL\bin\Debug\SH.DAL.pdb
+D:\SH0.1\SH.BAL\bin\Debug\SH.Models.pdb
+D:\SH0.1\SH.BAL\bin\Debug\EntityFramework.xml
+D:\SH0.1\SH.BAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\SH0.1\SH.BAL\bin\Debug\Ninject.xml
