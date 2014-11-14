@@ -17,6 +17,7 @@ table.dataTable {
 table.dataTable thead th,
 table.dataTable tfoot th {
   font-weight: bold;
+  text-align:center;
 }
 table.dataTable thead th,
 table.dataTable thead td {
@@ -224,7 +225,7 @@ table.dataTable thead th.dt-head-left,
 table.dataTable thead td.dt-head-left,
 table.dataTable tfoot th.dt-head-left,
 table.dataTable tfoot td.dt-head-left {
-  text-align: left;
+  float:right;
 }
 table.dataTable thead th.dt-head-center,
 table.dataTable thead td.dt-head-center,

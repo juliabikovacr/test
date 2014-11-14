@@ -7,15 +7,32 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Style/jquery.dataTables.css" rel="stylesheet" />
+    <link href="~/Style/menu.css" rel="stylesheet" />
+    <script src="~/Content/dataTables.bootstrap.js"></script>
     <script src="~/Script/jquery-1.11.1.min.js"></script>
     <script src="~/Script/jquery.dataTables.min.js"></script>
     <script src="~/Script/dataTables.autoFill.min.js"></script>
-    <link href="~/Style/jquery.dataTables.css" rel="stylesheet" />
     
     <title>Index</title>
 </head>
 <body>
-    <table id="heroes">
+    <div id="menu">
+        <ul class="menu">
+            <li>@Html.ActionLink("Heroes", "Index", "Home")</li>
+            <li>@Html.ActionLink("Studios", "Studios", "Home")</li>
+            <li>
+                Add
+                <ul>
+                    <li>@Html.ActionLink("Hero", "Hero", "Home")</li>
+                    <li>@Html.ActionLink("Studio", "Studio", "Home")</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="container" class="dt-head-center" style="width:80%; float:right; margin-right:5%;">
+    <table id="heroes" class="table-bordered dt-body-center">
         <thead>
             <tr>
                 <th>ID</th>
@@ -27,8 +44,19 @@
             </tr>
         </thead>
     </table>
+        </div>
     <script type="text/javascript">
         $(document).ready(function () {
+
+            $('.menu li').hover(
+                function(){
+                $('ul', this).slideDown(110);
+        },
+             function() {
+        $('ul', this).slideUp(110);
+    }
+                );
+
             var table = $('#heroes').dataTable({
                 'sAjaxSource': '/GetData',
                 "drawCallback": function(settings){
@@ -68,8 +96,6 @@
 
 
     </script>
-    @Html.ActionLink("Add hero", "Hero", "Home")
-    @Html.ActionLink("Add studio", "Studio", "Home")
 
 </body>
 </html>
